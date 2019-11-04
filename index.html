@@ -28,6 +28,19 @@
         <img class="logo2" src="./meetup.png" /></a>
 <style>
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
 iframe.t {
   border: 7px solid white;
   border-radius: 12px;
@@ -47,6 +60,7 @@ iframe.t {
       background-attachment:fixed;
       background-repeat: no-repeat;
       background-size: cover;
+      
     }
     .logo {
       height: 100px; 
